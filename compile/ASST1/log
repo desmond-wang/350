@@ -1,0 +1,1227 @@
+
+OS/161 base system version 1.99.05
+Copyright (c) 2000, 2001, 2002, 2003, 2004, 2005, 2008, 2009
+   President and Fellows of Harvard College.  All rights reserved.
+
+Daiyang Wang's system version 0 (ASST1 #59)
+
+280k physical memory available
+Device probe...
+lamebus0 (system main bus)
+emu0 at lamebus0
+ltrace0 at lamebus0
+ltimer0 at lamebus0
+beep0 at ltimer0
+rtclock0 at ltimer0
+lrandom0 at lamebus0
+random0 at lrandom0
+lhd0 at lamebus0
+lhd1 at lamebus0
+lser0 at lamebus0
+con0 at lser0
+
+cpu0: MIPS r3000
+cpu1: MIPS r3000
+cpu2: MIPS r3000
+cpu3: MIPS r3000
+cpu4: MIPS r3000
+cpu5: MIPS r3000
+cpu6: MIPS r3000
+cpu7: MIPS r3000
+OS/161 kernel: sp3 5 30 0 1 1
+Threads: 5 Iterations: 30 Interarrival time: 0  Service time: 1  Bias?: yes
+TRAFFIC 1 3 -247857443 charging
+curCV 1 
+enter 1 3 
+TRAFFIC 1 3 -247857420 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 0 
+  car list: -1, -1, -1, -1 
+  ---> new car list: -1, -1, -1, -1 
+TRAFFIC 0 1 -247857382 charging
+curCV 0 
+enter 0 1 
+TRAFFIC 1 3 -247857368 charging
+TRAFFIC 1 3 -247857358 waiting
+TRAFFIC 0 2 -247857349 charging
+TRAFFIC 0 2 -247857340 waiting
+TRAFFIC 0 1 -247857332 leaving
+leave 0 1 new cv = 0 
+  noCarCrossing: 0 
+  car list: 1, 0, -1, -1 
+   broadcast 1  ---> new car list: 1, 0, -1, -1 
+TRAFFIC 1 3 -247857293 resuming
+enter 1 3 
+TRAFFIC 2 0 -247857282 charging
+TRAFFIC 2 0 -247857272 waiting
+TRAFFIC 2 1 -247857262 charging
+TRAFFIC 2 1 -247857255 waiting
+TRAFFIC 3 0 -247857247 charging
+TRAFFIC 3 0 -247857237 waiting
+TRAFFIC 1 3 -247857228 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 0 
+  car list: 0, 2, 3, -1 
+   broadcast 0  ---> new car list: 0, 2, 3, -1 
+TRAFFIC 0 2 -247857194 resuming
+enter 0 2 
+TRAFFIC 1 3 -247857184 charging
+TRAFFIC 1 3 -247857177 waiting
+TRAFFIC 0 2 -247857169 leaving
+leave 0 2 new cv = 0 
+  noCarCrossing: 0 
+  car list: 2, 3, 1, -1 
+   broadcast 2  ---> new car list: 2, 3, 1, -1 
+TRAFFIC 2 0 -247857136 resuming
+enter 2 0 
+TRAFFIC 2 1 -247857123 resuming
+enter 2 1 
+TRAFFIC 1 0 -247857113 charging
+TRAFFIC 1 0 -247857106 waiting
+TRAFFIC 2 0 -247857099 leaving
+leave 2 0 new cv = 2 
+  noCarCrossing: 1 
+  car list: 3, 1, -1, -1 
+TRAFFIC 2 1 -247857069 leaving
+leave 2 1 new cv = 2 
+  noCarCrossing: 0 
+  car list: 3, 1, -1, -1 
+   broadcast 3  ---> new car list: 3, 1, -1, -1 
+TRAFFIC 1 2 -247857037 charging
+TRAFFIC 1 2 -247857027 waiting
+TRAFFIC 3 0 -247857018 resuming
+enter 3 0 
+TRAFFIC 1 3 -247857005 charging
+TRAFFIC 1 3 -247856998 waiting
+TRAFFIC 3 0 -247856990 leaving
+leave 3 0 new cv = 3 
+  noCarCrossing: 0 
+  car list: 1, -1, -1, -1 
+   broadcast 1  ---> new car list: 1, -1, -1, -1 
+TRAFFIC 1 3 -247856945 resuming
+enter 1 3 
+TRAFFIC 1 2 -247856934 resuming
+enter 1 2 
+TRAFFIC 1 0 -247856921 resuming
+enter 1 0 
+TRAFFIC 1 3 -247856910 resuming
+enter 1 3 
+TRAFFIC 1 2 -247856900 charging
+enter 1 2 
+TRAFFIC 1 3 -247856887 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 4 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 2 -247856863 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 3 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 0 -247856833 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 2 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 3 -247856810 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 1 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 2 -247856787 charging
+enter 1 2 
+TRAFFIC 1 3 -247856777 charging
+enter 1 3 
+TRAFFIC 1 3 -247856766 charging
+enter 1 3 
+TRAFFIC 1 3 -247856753 charging
+enter 1 3 
+TRAFFIC 1 2 -247856742 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 4 
+  car list: -1, -1, -1, -1 
+TRAFFIC 3 0 -247856712 charging
+TRAFFIC 3 0 -247856703 waiting
+TRAFFIC 1 3 -247856693 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 3 
+  car list: 3, -1, -1, -1 
+TRAFFIC 1 3 -247856670 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 2 
+  car list: 3, -1, -1, -1 
+TRAFFIC 1 3 -247856641 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 1 
+  car list: 3, -1, -1, -1 
+TRAFFIC 1 2 -247856618 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 0 
+  car list: 3, -1, -1, -1 
+   broadcast 3  ---> new car list: 3, -1, -1, -1 
+TRAFFIC 1 0 -247856584 charging
+TRAFFIC 1 0 -247856577 waiting
+TRAFFIC 1 2 -247856569 charging
+TRAFFIC 1 2 -247856559 waiting
+TRAFFIC 1 2 -247856549 charging
+TRAFFIC 1 2 -247856541 waiting
+TRAFFIC 3 0 -247856534 resuming
+enter 3 0 
+TRAFFIC 1 2 -247856520 charging
+TRAFFIC 1 2 -247856513 waiting
+TRAFFIC 3 0 -247856505 leaving
+leave 3 0 new cv = 3 
+  noCarCrossing: 0 
+  car list: 1, -1, -1, -1 
+   broadcast 1  ---> new car list: 1, -1, -1, -1 
+TRAFFIC 1 0 -247856460 resuming
+enter 1 0 
+TRAFFIC 1 2 -247856450 resuming
+enter 1 2 
+TRAFFIC 1 2 -247856440 resuming
+enter 1 2 
+TRAFFIC 1 2 -247856427 resuming
+enter 1 2 
+TRAFFIC 1 2 -247856417 charging
+enter 1 2 
+TRAFFIC 1 0 -247856404 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 4 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 2 -247856381 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 3 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 2 -247856358 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 2 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 2 -247856328 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 1 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 2 -247856305 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 0 
+  car list: -1, -1, -1, -1 
+  ---> new car list: -1, -1, -1, -1 
+TRAFFIC 1 2 -247856264 charging
+curCV 1 
+enter 1 2 
+TRAFFIC 1 3 -247856251 charging
+enter 1 3 
+TRAFFIC 3 2 -247856241 charging
+TRAFFIC 3 2 -247856231 waiting
+TRAFFIC 1 2 -247856221 charging
+TRAFFIC 1 2 -247856214 waiting
+TRAFFIC 1 0 -247856206 charging
+TRAFFIC 1 0 -247856196 waiting
+TRAFFIC 1 2 -247856186 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 1 
+  car list: 3, 1, -1, -1 
+TRAFFIC 1 3 -247856164 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 0 
+  car list: 3, 1, -1, -1 
+   broadcast 3  ---> new car list: 3, 1, -1, -1 
+TRAFFIC 2 1 -247856130 charging
+TRAFFIC 2 1 -247856123 waiting
+TRAFFIC 3 2 -247856115 resuming
+enter 3 2 
+TRAFFIC 1 3 -247856102 charging
+TRAFFIC 1 3 -247856094 waiting
+TRAFFIC 3 2 -247856087 leaving
+leave 3 2 new cv = 3 
+  noCarCrossing: 0 
+  car list: 1, 2, -1, -1 
+   broadcast 1  ---> new car list: 1, 2, -1, -1 
+TRAFFIC 1 2 -247856041 resuming
+enter 1 2 
+TRAFFIC 1 3 -247856031 resuming
+enter 1 3 
+TRAFFIC 1 0 -247856022 resuming
+enter 1 0 
+TRAFFIC 1 0 -247856009 charging
+TRAFFIC 1 0 -247855998 waiting
+TRAFFIC 1 2 -247855989 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 2 
+  car list: 2, 1, -1, -1 
+TRAFFIC 1 3 -247855967 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 1 
+  car list: 2, 1, -1, -1 
+TRAFFIC 1 0 -247855944 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 0 
+  car list: 2, 1, -1, -1 
+   broadcast 2  ---> new car list: 2, 1, -1, -1 
+TRAFFIC 1 0 -247855911 charging
+TRAFFIC 1 0 -247855903 waiting
+TRAFFIC 1 3 -247855896 charging
+TRAFFIC 1 3 -247855888 waiting
+TRAFFIC 2 1 -247855881 resuming
+enter 2 1 
+TRAFFIC 3 1 -247855871 charging
+TRAFFIC 3 1 -247855863 waiting
+TRAFFIC 2 1 -247855855 leaving
+leave 2 1 new cv = 2 
+  noCarCrossing: 0 
+  car list: 1, 3, -1, -1 
+   broadcast 1  ---> new car list: 1, 3, -1, -1 
+TRAFFIC 1 0 -247855820 resuming
+enter 1 0 
+TRAFFIC 1 0 -247855807 resuming
+enter 1 0 
+TRAFFIC 1 3 -247855797 resuming
+enter 1 3 
+TRAFFIC 1 2 -247855787 charging
+TRAFFIC 1 2 -247855779 waiting
+TRAFFIC 1 0 -247855772 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 2 
+  car list: 3, 1, -1, -1 
+TRAFFIC 1 0 -247855742 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 1 
+  car list: 3, 1, -1, -1 
+TRAFFIC 1 3 -247855720 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 0 
+  car list: 3, 1, -1, -1 
+   broadcast 3  ---> new car list: 3, 1, -1, -1 
+TRAFFIC 1 2 -247855686 charging
+TRAFFIC 1 2 -247855676 waiting
+TRAFFIC 0 3 -247855666 charging
+TRAFFIC 0 3 -247855659 waiting
+TRAFFIC 3 1 -247855651 resuming
+enter 3 1 
+TRAFFIC 1 0 -247855641 charging
+TRAFFIC 1 0 -247855633 waiting
+TRAFFIC 3 1 -247855626 leaving
+leave 3 1 new cv = 3 
+  noCarCrossing: 0 
+  car list: 1, 0, -1, -1 
+   broadcast 1  ---> new car list: 1, 0, -1, -1 
+TRAFFIC 1 2 -247855592 resuming
+enter 1 2 
+TRAFFIC 1 2 -247855582 resuming
+enter 1 2 
+TRAFFIC 1 0 -247855568 resuming
+enter 1 0 
+TRAFFIC 1 3 -247855558 charging
+TRAFFIC 1 3 -247855551 waiting
+TRAFFIC 1 2 -247855543 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 2 
+  car list: 0, 1, -1, -1 
+TRAFFIC 0 2 -247855520 charging
+TRAFFIC 0 2 -247855513 waiting
+TRAFFIC 1 0 -247855505 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 1 
+  car list: 0, 1, -1, -1 
+TRAFFIC 1 2 -247855482 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 0 
+  car list: 0, 1, -1, -1 
+   broadcast 0  ---> new car list: 0, 1, -1, -1 
+TRAFFIC 1 0 -247855437 charging
+TRAFFIC 1 0 -247855429 waiting
+TRAFFIC 0 2 -247855422 resuming
+enter 0 2 
+TRAFFIC 0 3 -247855412 resuming
+enter 0 3 
+TRAFFIC 1 2 -247855401 charging
+TRAFFIC 1 2 -247855391 waiting
+TRAFFIC 0 2 -247855381 leaving
+leave 0 2 new cv = 0 
+  noCarCrossing: 1 
+  car list: 1, -1, -1, -1 
+TRAFFIC 0 3 -247855358 leaving
+leave 0 3 new cv = 0 
+  noCarCrossing: 0 
+  car list: 1, -1, -1, -1 
+   broadcast 1  ---> new car list: 1, -1, -1, -1 
+TRAFFIC 1 2 -247855324 charging
+TRAFFIC 1 2 -247855315 waiting
+TRAFFIC 1 3 -247855308 resuming
+enter 1 3 
+TRAFFIC 1 0 -247855298 resuming
+enter 1 0 
+TRAFFIC 1 2 -247855287 resuming
+enter 1 2 
+TRAFFIC 1 0 -247855274 charging
+enter 1 0 
+TRAFFIC 1 3 -247855264 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 3 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 0 -247855240 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 2 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 2 -247855217 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 1 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 3 -247855187 charging
+enter 1 3 
+TRAFFIC 1 3 -247855174 charging
+enter 1 3 
+TRAFFIC 1 2 -247855164 charging
+enter 1 2 
+TRAFFIC 1 0 -247855154 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 3 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 3 -247855130 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 2 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 3 -247855100 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 1 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 2 -247855077 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 0 
+  car list: -1, -1, -1, -1 
+  ---> new car list: -1, -1, -1, -1 
+TRAFFIC 1 0 -247855046 charging
+curCV 1 
+enter 1 0 
+TRAFFIC 1 2 -247855034 charging
+enter 1 2 
+TRAFFIC 1 3 -247855020 charging
+enter 1 3 
+TRAFFIC 1 3 -247855010 charging
+enter 1 3 
+TRAFFIC 1 0 -247855000 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 3 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 0 -247854977 charging
+enter 1 0 
+TRAFFIC 1 3 -247854967 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 3 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 3 -247854943 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 2 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 2 -247854921 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 1 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 0 -247854890 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 0 
+  car list: -1, -1, -1, -1 
+  ---> new car list: -1, -1, -1, -1 
+TRAFFIC 1 2 -247854859 charging
+curCV 1 
+enter 1 2 
+TRAFFIC 2 3 -247854846 charging
+TRAFFIC 2 3 -247854838 waiting
+TRAFFIC 1 3 -247854831 charging
+TRAFFIC 1 3 -247854821 waiting
+TRAFFIC 2 3 -247854811 charging
+TRAFFIC 2 3 -247854803 waiting
+TRAFFIC 1 2 -247854796 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 0 
+  car list: 2, 1, -1, -1 
+   broadcast 2  ---> new car list: 2, 1, -1, -1 
+TRAFFIC 2 3 -247854762 resuming
+enter 2 3 
+TRAFFIC 2 3 -247854752 resuming
+enter 2 3 
+TRAFFIC 1 2 -247854743 charging
+TRAFFIC 1 2 -247854734 waiting
+TRAFFIC 2 3 -247854727 leaving
+leave 2 3 new cv = 2 
+  noCarCrossing: 1 
+  car list: 1, -1, -1, -1 
+TRAFFIC 2 3 -247854705 leaving
+leave 2 3 new cv = 2 
+  noCarCrossing: 0 
+  car list: 1, -1, -1, -1 
+   broadcast 1  ---> new car list: 1, -1, -1, -1 
+TRAFFIC 1 2 -247854670 charging
+TRAFFIC 1 2 -247854662 waiting
+TRAFFIC 1 2 -247854655 resuming
+enter 1 2 
+TRAFFIC 1 3 -247854645 resuming
+enter 1 3 
+TRAFFIC 1 2 -247854632 resuming
+enter 1 2 
+TRAFFIC 1 0 -247854621 charging
+enter 1 0 
+TRAFFIC 1 2 -247854611 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 3 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 3 -247854587 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 2 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 2 -247854556 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 1 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 0 -247854533 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 0 
+  car list: -1, -1, -1, -1 
+  ---> new car list: -1, -1, -1, -1 
+TRAFFIC 1 3 -247854502 charging
+curCV 1 
+enter 1 3 
+TRAFFIC 1 0 -247854489 charging
+enter 1 0 
+TRAFFIC 1 0 -247854476 charging
+enter 1 0 
+TRAFFIC 0 2 -247854466 charging
+TRAFFIC 0 2 -247854458 waiting
+TRAFFIC 1 3 -247854450 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 2 
+  car list: 0, -1, -1, -1 
+TRAFFIC 1 0 -247854427 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 1 
+  car list: 0, -1, -1, -1 
+TRAFFIC 1 0 -247854397 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 0 
+  car list: 0, -1, -1, -1 
+   broadcast 0  ---> new car list: 0, -1, -1, -1 
+TRAFFIC 1 3 -247854362 charging
+TRAFFIC 1 3 -247854354 waiting
+TRAFFIC 2 0 -247854347 charging
+TRAFFIC 2 0 -247854337 waiting
+TRAFFIC 0 2 -247854327 resuming
+enter 0 2 
+TRAFFIC 1 3 -247854317 charging
+TRAFFIC 1 3 -247854310 waiting
+TRAFFIC 0 2 -247854302 leaving
+leave 0 2 new cv = 0 
+  noCarCrossing: 0 
+  car list: 1, 2, -1, -1 
+   broadcast 1  ---> new car list: 1, 2, -1, -1 
+TRAFFIC 1 2 -247854267 resuming
+enter 1 2 
+TRAFFIC 1 3 -247854257 resuming
+enter 1 3 
+TRAFFIC 1 3 -247854247 resuming
+enter 1 3 
+TRAFFIC 2 0 -247854236 charging
+TRAFFIC 2 0 -247854228 waiting
+TRAFFIC 1 2 -247854221 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 2 
+  car list: 2, -1, -1, -1 
+TRAFFIC 1 3 -247854198 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 1 
+  car list: 2, -1, -1, -1 
+TRAFFIC 1 3 -247854175 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 0 
+  car list: 2, -1, -1, -1 
+   broadcast 2  ---> new car list: 2, -1, -1, -1 
+TRAFFIC 3 2 -247854141 charging
+TRAFFIC 3 2 -247854133 waiting
+TRAFFIC 3 0 -247854126 charging
+TRAFFIC 3 0 -247854118 waiting
+TRAFFIC 2 0 -247854111 resuming
+enter 2 0 
+TRAFFIC 2 0 -247854098 resuming
+enter 2 0 
+TRAFFIC 0 2 -247854088 charging
+TRAFFIC 0 2 -247854080 waiting
+TRAFFIC 2 0 -247854073 leaving
+leave 2 0 new cv = 2 
+  noCarCrossing: 1 
+  car list: 3, 0, -1, -1 
+TRAFFIC 2 0 -247854043 leaving
+leave 2 0 new cv = 2 
+  noCarCrossing: 0 
+  car list: 3, 0, -1, -1 
+   broadcast 3  ---> new car list: 3, 0, -1, -1 
+TRAFFIC 1 0 -247854009 charging
+TRAFFIC 1 0 -247853999 waiting
+TRAFFIC 3 2 -247853989 resuming
+enter 3 2 
+TRAFFIC 3 0 -247853979 resuming
+enter 3 0 
+TRAFFIC 1 0 -247853969 charging
+TRAFFIC 1 0 -247853961 waiting
+TRAFFIC 3 2 -247853953 leaving
+leave 3 2 new cv = 3 
+  noCarCrossing: 1 
+  car list: 0, 1, -1, -1 
+TRAFFIC 3 0 -247853931 leaving
+leave 3 0 new cv = 3 
+  noCarCrossing: 0 
+  car list: 0, 1, -1, -1 
+   broadcast 0  ---> new car list: 0, 1, -1, -1 
+TRAFFIC 1 2 -247853897 charging
+TRAFFIC 1 2 -247853889 waiting
+TRAFFIC 0 2 -247853882 resuming
+enter 0 2 
+TRAFFIC 1 2 -247853872 charging
+TRAFFIC 1 2 -247853864 waiting
+TRAFFIC 0 2 -247853856 leaving
+leave 0 2 new cv = 0 
+  noCarCrossing: 0 
+  car list: 1, -1, -1, -1 
+   broadcast 1  ---> new car list: 1, -1, -1, -1 
+TRAFFIC 1 0 -247853821 resuming
+enter 1 0 
+TRAFFIC 1 0 -247853808 resuming
+enter 1 0 
+TRAFFIC 1 2 -247853798 resuming
+enter 1 2 
+TRAFFIC 1 2 -247853788 resuming
+enter 1 2 
+TRAFFIC 1 3 -247853778 charging
+enter 1 3 
+TRAFFIC 1 0 -247853767 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 4 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 0 -247853737 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 3 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 2 -247853714 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 2 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 2 -247853691 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 1 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 3 -247853667 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 0 
+  car list: -1, -1, -1, -1 
+  ---> new car list: -1, -1, -1, -1 
+TRAFFIC 3 1 -247853636 charging
+curCV 3 
+enter 3 1 
+TRAFFIC 1 0 -247853621 charging
+TRAFFIC 1 0 -247853613 waiting
+TRAFFIC 1 2 -247853606 charging
+TRAFFIC 1 2 -247853598 waiting
+TRAFFIC 3 0 -247853591 charging
+TRAFFIC 3 0 -247853583 waiting
+TRAFFIC 1 3 -247853576 charging
+TRAFFIC 1 3 -247853569 waiting
+TRAFFIC 3 1 -247853561 leaving
+leave 3 1 new cv = 3 
+  noCarCrossing: 0 
+  car list: 1, 3, -1, -1 
+   broadcast 1  ---> new car list: 1, 3, -1, -1 
+TRAFFIC 1 0 -247853517 resuming
+enter 1 0 
+TRAFFIC 1 2 -247853507 resuming
+enter 1 2 
+TRAFFIC 1 3 -247853497 resuming
+enter 1 3 
+TRAFFIC 1 2 -247853487 charging
+TRAFFIC 1 2 -247853477 waiting
+TRAFFIC 1 0 -247853467 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 2 
+  car list: 3, 1, -1, -1 
+TRAFFIC 1 2 -247853445 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 1 
+  car list: 3, 1, -1, -1 
+TRAFFIC 1 3 -247853423 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 0 
+  car list: 3, 1, -1, -1 
+   broadcast 3  ---> new car list: 3, 1, -1, -1 
+TRAFFIC 1 2 -247853388 charging
+TRAFFIC 1 2 -247853380 waiting
+TRAFFIC 1 0 -247853373 charging
+TRAFFIC 1 0 -247853365 waiting
+TRAFFIC 3 0 -247853357 resuming
+enter 3 0 
+TRAFFIC 1 3 -247853347 charging
+TRAFFIC 1 3 -247853340 waiting
+TRAFFIC 3 0 -247853332 leaving
+leave 3 0 new cv = 3 
+  noCarCrossing: 0 
+  car list: 1, -1, -1, -1 
+   broadcast 1  ---> new car list: 1, -1, -1, -1 
+TRAFFIC 1 2 -247853297 resuming
+enter 1 2 
+TRAFFIC 1 2 -247853284 resuming
+enter 1 2 
+TRAFFIC 1 0 -247853274 resuming
+enter 1 0 
+TRAFFIC 1 3 -247853263 resuming
+enter 1 3 
+TRAFFIC 0 3 -247853254 charging
+TRAFFIC 0 3 -247853246 waiting
+TRAFFIC 1 2 -247853238 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 3 
+  car list: 0, -1, -1, -1 
+TRAFFIC 1 2 -247853209 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 2 
+  car list: 0, -1, -1, -1 
+TRAFFIC 1 0 -247853186 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 1 
+  car list: 0, -1, -1, -1 
+TRAFFIC 1 3 -247853163 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 0 
+  car list: 0, -1, -1, -1 
+   broadcast 0  ---> new car list: 0, -1, -1, -1 
+TRAFFIC 2 0 -247853129 charging
+TRAFFIC 2 0 -247853119 waiting
+TRAFFIC 3 1 -247853109 charging
+TRAFFIC 3 1 -247853102 waiting
+TRAFFIC 1 3 -247853094 charging
+TRAFFIC 1 3 -247853086 waiting
+TRAFFIC 0 3 -247853078 resuming
+enter 0 3 
+TRAFFIC 1 2 -247853068 charging
+TRAFFIC 1 2 -247853060 waiting
+TRAFFIC 0 3 -247853053 leaving
+leave 0 3 new cv = 0 
+  noCarCrossing: 0 
+  car list: 2, 3, 1, -1 
+   broadcast 2  ---> new car list: 2, 3, 1, -1 
+TRAFFIC 2 0 -247853020 resuming
+enter 2 0 
+TRAFFIC 1 0 -247853007 charging
+TRAFFIC 1 0 -247853000 waiting
+TRAFFIC 2 0 -247852992 leaving
+leave 2 0 new cv = 2 
+  noCarCrossing: 0 
+  car list: 3, 1, -1, -1 
+   broadcast 3  ---> new car list: 3, 1, -1, -1 
+TRAFFIC 3 1 -247852948 resuming
+enter 3 1 
+TRAFFIC 0 1 -247852938 charging
+TRAFFIC 0 1 -247852927 waiting
+TRAFFIC 3 1 -247852918 leaving
+leave 3 1 new cv = 3 
+  noCarCrossing: 0 
+  car list: 1, 0, -1, -1 
+   broadcast 1  ---> new car list: 1, 0, -1, -1 
+TRAFFIC 1 2 -247852884 resuming
+enter 1 2 
+TRAFFIC 1 3 -247852873 resuming
+enter 1 3 
+TRAFFIC 1 0 -247852863 resuming
+enter 1 0 
+TRAFFIC 1 3 -247852853 charging
+TRAFFIC 1 3 -247852845 waiting
+TRAFFIC 1 2 -247852838 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 2 
+  car list: 0, 1, -1, -1 
+TRAFFIC 1 3 -247852815 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 1 
+  car list: 0, 1, -1, -1 
+TRAFFIC 1 0 -247852793 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 0 
+  car list: 0, 1, -1, -1 
+   broadcast 0  ---> new car list: 0, 1, -1, -1 
+TRAFFIC 1 3 -247852759 charging
+TRAFFIC 1 3 -247852750 waiting
+TRAFFIC 1 2 -247852742 charging
+TRAFFIC 1 2 -247852735 waiting
+TRAFFIC 0 1 -247852727 resuming
+enter 0 1 
+TRAFFIC 1 0 -247852715 charging
+TRAFFIC 1 0 -247852707 waiting
+TRAFFIC 0 1 -247852700 leaving
+leave 0 1 new cv = 0 
+  noCarCrossing: 0 
+  car list: 1, -1, -1, -1 
+   broadcast 1  ---> new car list: 1, -1, -1, -1 
+TRAFFIC 1 3 -247852655 resuming
+enter 1 3 
+TRAFFIC 1 3 -247852645 charging
+enter 1 3 
+TRAFFIC 1 3 -247852632 resuming
+enter 1 3 
+TRAFFIC 1 0 -247852621 resuming
+enter 1 0 
+TRAFFIC 1 2 -247852611 resuming
+enter 1 2 
+TRAFFIC 1 3 -247852601 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 4 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 3 -247852578 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 3 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 3 -247852548 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 2 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 0 -247852525 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 1 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 2 -247852502 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 0 
+  car list: -1, -1, -1, -1 
+  ---> new car list: -1, -1, -1, -1 
+TRAFFIC 1 3 -247852471 charging
+curCV 1 
+enter 1 3 
+TRAFFIC 1 0 -247852458 charging
+enter 1 0 
+TRAFFIC 1 0 -247852445 charging
+enter 1 0 
+TRAFFIC 3 0 -247852435 charging
+TRAFFIC 3 0 -247852427 waiting
+TRAFFIC 1 3 -247852420 charging
+TRAFFIC 1 3 -247852412 waiting
+TRAFFIC 1 3 -247852405 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 2 
+  car list: 3, 1, -1, -1 
+TRAFFIC 1 0 -247852382 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 1 
+  car list: 3, 1, -1, -1 
+TRAFFIC 1 0 -247852353 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 0 
+  car list: 3, 1, -1, -1 
+   broadcast 3  ---> new car list: 3, 1, -1, -1 
+TRAFFIC 1 0 -247852319 charging
+TRAFFIC 1 0 -247852311 waiting
+TRAFFIC 0 2 -247852304 charging
+TRAFFIC 0 2 -247852294 waiting
+TRAFFIC 3 0 -247852284 resuming
+enter 3 0 
+TRAFFIC 2 3 -247852274 charging
+TRAFFIC 2 3 -247852266 waiting
+TRAFFIC 3 0 -247852259 leaving
+leave 3 0 new cv = 3 
+  noCarCrossing: 0 
+  car list: 1, 0, 2, -1 
+   broadcast 1  ---> new car list: 1, 0, 2, -1 
+TRAFFIC 1 3 -247852225 resuming
+enter 1 3 
+TRAFFIC 1 0 -247852215 resuming
+enter 1 0 
+TRAFFIC 1 2 -247852205 charging
+TRAFFIC 1 2 -247852197 waiting
+TRAFFIC 1 3 -247852190 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 1 
+  car list: 0, 2, 1, -1 
+TRAFFIC 1 0 -247852167 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 0 
+  car list: 0, 2, 1, -1 
+   broadcast 0  ---> new car list: 0, 2, 1, -1 
+TRAFFIC 1 2 -247852134 charging
+TRAFFIC 1 2 -247852127 waiting
+TRAFFIC 0 2 -247852119 resuming
+enter 0 2 
+TRAFFIC 2 0 -247852106 charging
+TRAFFIC 2 0 -247852098 waiting
+TRAFFIC 0 2 -247852091 leaving
+leave 0 2 new cv = 0 
+  noCarCrossing: 0 
+  car list: 2, 1, -1, -1 
+   broadcast 2  ---> new car list: 2, 1, -1, -1 
+TRAFFIC 2 3 -247852046 resuming
+enter 2 3 
+TRAFFIC 2 0 -247852036 resuming
+enter 2 0 
+TRAFFIC 1 3 -247852026 charging
+TRAFFIC 1 3 -247852016 waiting
+TRAFFIC 2 3 -247852006 leaving
+leave 2 3 new cv = 2 
+  noCarCrossing: 1 
+  car list: 1, -1, -1, -1 
+TRAFFIC 2 0 -247851983 leaving
+leave 2 0 new cv = 2 
+  noCarCrossing: 0 
+  car list: 1, -1, -1, -1 
+   broadcast 1  ---> new car list: 1, -1, -1, -1 
+TRAFFIC 3 1 -247851949 charging
+TRAFFIC 3 1 -247851941 waiting
+TRAFFIC 1 2 -247851934 resuming
+enter 1 2 
+TRAFFIC 1 3 -247851924 resuming
+enter 1 3 
+TRAFFIC 1 2 -247851911 resuming
+enter 1 2 
+TRAFFIC 1 3 -247851901 charging
+TRAFFIC 1 3 -247851893 waiting
+TRAFFIC 1 2 -247851885 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 2 
+  car list: 3, 1, -1, -1 
+TRAFFIC 1 3 -247851863 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 1 
+  car list: 3, 1, -1, -1 
+TRAFFIC 1 2 -247851834 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 0 
+  car list: 3, 1, -1, -1 
+   broadcast 3  ---> new car list: 3, 1, -1, -1 
+TRAFFIC 1 3 -247851800 charging
+TRAFFIC 1 3 -247851792 waiting
+TRAFFIC 1 0 -247851785 charging
+TRAFFIC 1 0 -247851775 waiting
+TRAFFIC 3 1 -247851765 resuming
+enter 3 1 
+TRAFFIC 1 0 -247851755 charging
+TRAFFIC 1 0 -247851747 waiting
+TRAFFIC 3 1 -247851740 leaving
+leave 3 1 new cv = 3 
+  noCarCrossing: 0 
+  car list: 1, -1, -1, -1 
+   broadcast 1  ---> new car list: 1, -1, -1, -1 
+TRAFFIC 1 3 -247851704 resuming
+enter 1 3 
+TRAFFIC 1 0 -247851694 resuming
+enter 1 0 
+TRAFFIC 1 3 -247851680 resuming
+enter 1 3 
+TRAFFIC 1 0 -247851671 resuming
+enter 1 0 
+TRAFFIC 2 0 -247851661 charging
+TRAFFIC 2 0 -247851652 waiting
+TRAFFIC 1 3 -247851645 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 3 
+  car list: 2, -1, -1, -1 
+TRAFFIC 1 0 -247851622 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 2 
+  car list: 2, -1, -1, -1 
+TRAFFIC 1 3 -247851591 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 1 
+  car list: 2, -1, -1, -1 
+TRAFFIC 1 0 -247851567 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 0 
+  car list: 2, -1, -1, -1 
+   broadcast 2  ---> new car list: 2, -1, -1, -1 
+TRAFFIC 2 0 -247851532 charging
+TRAFFIC 2 0 -247851525 waiting
+TRAFFIC 0 2 -247851517 charging
+TRAFFIC 0 2 -247851507 waiting
+TRAFFIC 1 2 -247851498 charging
+TRAFFIC 1 2 -247851490 waiting
+TRAFFIC 2 0 -247851483 resuming
+enter 2 0 
+TRAFFIC 1 3 -247851473 charging
+TRAFFIC 1 3 -247851465 waiting
+TRAFFIC 2 0 -247851457 leaving
+leave 2 0 new cv = 2 
+  noCarCrossing: 0 
+  car list: 0, 1, -1, -1 
+   broadcast 0  ---> new car list: 0, 1, -1, -1 
+TRAFFIC 1 0 -247851424 charging
+TRAFFIC 1 0 -247851416 waiting
+TRAFFIC 0 2 -247851409 resuming
+enter 0 2 
+TRAFFIC 0 2 -247851389 leaving
+leave 0 2 new cv = 0 
+  noCarCrossing: 0 
+  car list: 1, -1, -1, -1 
+   broadcast 1  ---> new car list: 1, -1, -1, -1 
+TRAFFIC 1 2 -247851343 resuming
+enter 1 2 
+TRAFFIC 1 3 -247851334 resuming
+enter 1 3 
+TRAFFIC 1 0 -247851324 resuming
+enter 1 0 
+TRAFFIC 3 1 -247851310 charging
+TRAFFIC 3 1 -247851300 waiting
+TRAFFIC 1 2 -247851290 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 2 
+  car list: 3, -1, -1, -1 
+TRAFFIC 1 3 -247851267 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 1 
+  car list: 3, -1, -1, -1 
+TRAFFIC 1 0 -247851244 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 0 
+  car list: 3, -1, -1, -1 
+   broadcast 3  ---> new car list: 3, -1, -1, -1 
+TRAFFIC 1 3 -247851199 charging
+TRAFFIC 1 3 -247851191 waiting
+TRAFFIC 2 1 -247851184 charging
+TRAFFIC 2 1 -247851176 waiting
+TRAFFIC 3 1 -247851169 resuming
+enter 3 1 
+TRAFFIC 2 3 -247851156 charging
+TRAFFIC 2 3 -247851145 waiting
+TRAFFIC 3 1 -247851135 leaving
+leave 3 1 new cv = 3 
+  noCarCrossing: 0 
+  car list: 1, 2, -1, -1 
+   broadcast 1  ---> new car list: 1, 2, -1, -1 
+TRAFFIC 1 3 -247851090 resuming
+enter 1 3 
+TRAFFIC 3 2 -247851080 charging
+TRAFFIC 3 2 -247851069 waiting
+TRAFFIC 1 3 -247851059 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 0 
+  car list: 2, 3, -1, -1 
+   broadcast 2  ---> new car list: 2, 3, -1, -1 
+TRAFFIC 2 0 -247851025 resuming
+enter 2 0 
+TRAFFIC 2 1 -247851015 resuming
+enter 2 1 
+TRAFFIC 2 3 -247851005 resuming
+enter 2 3 
+TRAFFIC 1 0 -247850992 charging
+TRAFFIC 1 0 -247850985 waiting
+TRAFFIC 2 0 -247850977 leaving
+leave 2 0 new cv = 2 
+  noCarCrossing: 2 
+  car list: 3, 1, -1, -1 
+TRAFFIC 2 1 -247850954 leaving
+leave 2 1 new cv = 2 
+  noCarCrossing: 1 
+  car list: 3, 1, -1, -1 
+TRAFFIC 2 3 -247850931 leaving
+leave 2 3 new cv = 2 
+  noCarCrossing: 0 
+  car list: 3, 1, -1, -1 
+   broadcast 3  ---> new car list: 3, 1, -1, -1 
+TRAFFIC 1 0 -247850887 charging
+TRAFFIC 1 0 -247850879 waiting
+TRAFFIC 1 0 -247850872 charging
+TRAFFIC 1 0 -247850864 waiting
+TRAFFIC 3 2 -247850856 resuming
+enter 3 2 
+TRAFFIC 1 0 -247850843 charging
+TRAFFIC 1 0 -247850832 waiting
+TRAFFIC 3 2 -247850823 leaving
+leave 3 2 new cv = 3 
+  noCarCrossing: 0 
+  car list: 1, -1, -1, -1 
+   broadcast 1  ---> new car list: 1, -1, -1, -1 
+TRAFFIC 1 0 -247850777 resuming
+enter 1 0 
+TRAFFIC 1 0 -247850767 resuming
+enter 1 0 
+TRAFFIC 1 0 -247850757 resuming
+enter 1 0 
+TRAFFIC 1 0 -247850747 resuming
+enter 1 0 
+TRAFFIC 1 3 -247850733 charging
+enter 1 3 
+TRAFFIC 1 0 -247850719 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 4 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 0 -247850696 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 3 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 0 -247850673 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 2 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 0 -247850649 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 1 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 3 -247850619 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 0 
+  car list: -1, -1, -1, -1 
+  ---> new car list: -1, -1, -1, -1 
+TRAFFIC 3 0 -247850577 charging
+curCV 3 
+enter 3 0 
+TRAFFIC 1 3 -247850565 charging
+TRAFFIC 1 3 -247850557 waiting
+TRAFFIC 1 0 -247850550 charging
+TRAFFIC 1 0 -247850542 waiting
+TRAFFIC 2 1 -247850535 charging
+TRAFFIC 2 1 -247850525 waiting
+TRAFFIC 0 1 -247850515 charging
+TRAFFIC 0 1 -247850505 waiting
+TRAFFIC 3 0 -247850495 leaving
+leave 3 0 new cv = 3 
+  noCarCrossing: 0 
+  car list: 1, 2, 0, -1 
+   broadcast 1  ---> new car list: 1, 2, 0, -1 
+TRAFFIC 1 3 -247850461 resuming
+enter 1 3 
+TRAFFIC 1 0 -247850451 resuming
+enter 1 0 
+TRAFFIC 2 3 -247850441 charging
+TRAFFIC 2 3 -247850433 waiting
+TRAFFIC 1 3 -247850426 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 1 
+  car list: 2, 0, -1, -1 
+TRAFFIC 1 0 -247850403 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 0 
+  car list: 2, 0, -1, -1 
+   broadcast 2  ---> new car list: 2, 0, -1, -1 
+TRAFFIC 1 2 -247850369 charging
+TRAFFIC 1 2 -247850361 waiting
+TRAFFIC 2 3 -247850354 resuming
+enter 2 3 
+TRAFFIC 2 1 -247850344 resuming
+enter 2 1 
+TRAFFIC 1 0 -247850330 charging
+TRAFFIC 1 0 -247850323 waiting
+TRAFFIC 2 3 -247850315 leaving
+leave 2 3 new cv = 2 
+  noCarCrossing: 1 
+  car list: 0, 1, -1, -1 
+TRAFFIC 2 1 -247850293 leaving
+leave 2 1 new cv = 2 
+  noCarCrossing: 0 
+  car list: 0, 1, -1, -1 
+   broadcast 0  ---> new car list: 0, 1, -1, -1 
+TRAFFIC 1 2 -247850248 charging
+TRAFFIC 1 2 -247850241 waiting
+TRAFFIC 0 1 -247850233 resuming
+enter 0 1 
+TRAFFIC 2 3 -247850220 charging
+TRAFFIC 2 3 -247850210 waiting
+TRAFFIC 0 1 -247850200 leaving
+leave 0 1 new cv = 0 
+  noCarCrossing: 0 
+  car list: 1, 2, -1, -1 
+   broadcast 1  ---> new car list: 1, 2, -1, -1 
+TRAFFIC 1 2 -247850156 resuming
+enter 1 2 
+TRAFFIC 1 2 -247850146 resuming
+enter 1 2 
+TRAFFIC 1 0 -247850136 resuming
+enter 1 0 
+TRAFFIC 1 3 -247850125 charging
+TRAFFIC 1 3 -247850115 waiting
+TRAFFIC 1 2 -247850105 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 2 
+  car list: 2, 1, -1, -1 
+TRAFFIC 1 2 -247850083 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 1 
+  car list: 2, 1, -1, -1 
+TRAFFIC 1 0 -247850061 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 0 
+  car list: 2, 1, -1, -1 
+   broadcast 2  ---> new car list: 2, 1, -1, -1 
+TRAFFIC 2 0 -247850027 charging
+TRAFFIC 2 0 -247850019 waiting
+TRAFFIC 1 0 -247850012 charging
+TRAFFIC 1 0 -247850005 waiting
+TRAFFIC 2 3 -247849997 resuming
+enter 2 3 
+TRAFFIC 1 2 -247849983 charging
+TRAFFIC 1 2 -247849975 waiting
+TRAFFIC 2 3 -247849968 leaving
+leave 2 3 new cv = 2 
+  noCarCrossing: 0 
+  car list: 1, -1, -1, -1 
+   broadcast 1  ---> new car list: 1, -1, -1, -1 
+TRAFFIC 1 3 -247849923 resuming
+enter 1 3 
+TRAFFIC 1 2 -247849909 resuming
+enter 1 2 
+TRAFFIC 1 0 -247849899 resuming
+enter 1 0 
+TRAFFIC 2 0 -247849888 charging
+TRAFFIC 2 0 -247849879 waiting
+TRAFFIC 1 3 -247849868 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 2 
+  car list: 2, -1, -1, -1 
+TRAFFIC 1 2 -247849839 leaving
+leave 1 2 new cv = 1 
+  noCarCrossing: 1 
+  car list: 2, -1, -1, -1 
+TRAFFIC 1 0 -247849817 leaving
+leave 1 0 new cv = 1 
+  noCarCrossing: 0 
+  car list: 2, -1, -1, -1 
+   broadcast 2  ---> new car list: 2, -1, -1, -1 
+TRAFFIC 1 3 -247849782 charging
+TRAFFIC 1 3 -247849772 waiting
+TRAFFIC 1 3 -247849763 charging
+TRAFFIC 1 3 -247849755 waiting
+TRAFFIC 2 0 -247849747 resuming
+enter 2 0 
+TRAFFIC 2 0 -247849737 resuming
+enter 2 0 
+TRAFFIC 2 0 -247849724 leaving
+leave 2 0 new cv = 2 
+  noCarCrossing: 1 
+  car list: 1, -1, -1, -1 
+TRAFFIC 2 0 -247849701 leaving
+leave 2 0 new cv = 2 
+  noCarCrossing: 0 
+  car list: 1, -1, -1, -1 
+   broadcast 1  ---> new car list: 1, -1, -1, -1 
+TRAFFIC 1 3 -247849655 charging
+TRAFFIC 1 3 -247849648 waiting
+TRAFFIC 1 3 -247849640 resuming
+enter 1 3 
+TRAFFIC 1 3 -247849626 resuming
+enter 1 3 
+TRAFFIC 1 3 -247849616 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 1 
+  car list: -1, -1, -1, -1 
+TRAFFIC 1 3 -247849586 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 0 
+  car list: -1, -1, -1, -1 
+  ---> new car list: -1, -1, -1, -1 
+TRAFFIC 1 3 -247849549 charging
+curCV 1 
+enter 1 3 
+TRAFFIC 1 3 -247849529 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 0 
+  car list: -1, -1, -1, -1 
+  ---> new car list: -1, -1, -1, -1 
+TRAFFIC 1 3 -247849489 charging
+curCV 1 
+enter 1 3 
+TRAFFIC 1 3 -247849469 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 0 
+  car list: -1, -1, -1, -1 
+  ---> new car list: -1, -1, -1, -1 
+TRAFFIC 1 3 -247849429 charging
+curCV 1 
+enter 1 3 
+TRAFFIC 1 3 -247849409 leaving
+leave 1 3 new cv = 1 
+  noCarCrossing: 0 
+  car list: -1, -1, -1, -1 
+  ---> new car list: -1, -1, -1, -1 
